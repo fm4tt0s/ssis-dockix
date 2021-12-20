@@ -9,7 +9,7 @@ should work very similar to dtexec on windows - urgh! like:
 
 ### clone the repo
 ### build the docker image
-<pre>docker build ssis-whalexec .</pre>
+<pre>docker build -t ssis-whalexec .</pre>
 
 ### bring the container up
 <pre>docker run -dt --name sameolwhale -v $(pwd):/root ssis-whalexec</pre>
